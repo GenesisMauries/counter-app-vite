@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 export const CounterApp = ({ value }) => {
   // Demuestra las llamadas del componente cada vez que cambia
   console.log("Render");
+
   const [counter, setCounter] = useState(value);
 
   // Funciones
