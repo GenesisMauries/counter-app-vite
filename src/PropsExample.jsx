@@ -4,10 +4,10 @@ export const PropsExample = ({ title, subTitle, number }) => {
   // console.log(props);
   return (
     <>
-      <h2>Props Example</h2>
-      <h4>{title}</h4>
-      <h4>{subTitle}</h4>
-      <h4>Soy un número {number}</h4>
+      <h4>Props Example</h4>
+      <p>{title}</p>
+      <p>{subTitle}</p>
+      <p>Soy un número {number}</p>
       <hr />
     </>
   );

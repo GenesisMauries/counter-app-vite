@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 export const DefaultProps = ({ title, subTitle }) => {
   return (
     <>
-      <h2>Default Props Example</h2>
+      <h4>Default Props Example</h4>
       <p>{title}</p>
       <p>{subTitle}</p>
       <hr />
