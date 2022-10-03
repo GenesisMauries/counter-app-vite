@@ -12,17 +12,17 @@ import './styles.css';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <CounterApp value={10} />
-    <HelloWorld /> */}
+    <CounterApp value={10} />
+    {/*  <HelloWorld /> */}
     {/* <FirstApp /> */}
 
     {/* Envia props del padre al hijo */}
-    <PropsExample
+    {/*  <PropsExample
       title='Vengo de props'
       subTitle='Me envian desde main.jsx'
       number={1000}
     />
-    {/* 
+    
     <PropTypesExample title={123} address='Coyoacan' />
     <DefaultProps title={123} /> */}
   </React.StrictMode>

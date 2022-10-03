@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { DefaultProps } from '../src/DefaultProps';
 
-describe('Pruebas <DefaultProps7>', () => {
+describe('Pruebas <DefaultProps/>', () => {
   // Hace una captura del componente y la almacena en la carpeta __snapshots__
   const title = '123';
   const subTitle = 'Subtitulo';
