@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas <DefaultProps7> Debe hacer match con snapshot 1`] = `
+<div>
+  <h4>
+    Default Props Example
+  </h4>
+  <p
+    data-testid="test-title"
+  >
+    123
+  </p>
+  <p>
+    No envias subtitulo y este string es un prop por defecto
+  </p>
+  <p>
+    No envias subtitulo y este string es un prop por defecto
+  </p>
+  <p>
+    No envias subtitulo y este string es un prop por defecto
+  </p>
+  <hr />
+</div>
+`;
