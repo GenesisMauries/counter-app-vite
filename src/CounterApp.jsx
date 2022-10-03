@@ -1,9 +1,9 @@
-import { useState } from "react";
-import PropTypes from "prop-types";
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 export const CounterApp = ({ value }) => {
   // Demuestra las llamadas del componente cada vez que cambia
-  console.log("Render");
+  console.log('Render');
 
   const [counter, setCounter] = useState(value);
 
@@ -19,7 +19,9 @@ export const CounterApp = ({ value }) => {
 
       <button onClick={handleAdd}>+1</button>
       <button onClick={handleSubtract}>-1</button>
-      <button onClick={handleReset}>Reset</button>
+      <button aria-label='btn-reset' onClick={handleReset}>
+        Reset
+      </button>
       <hr />
     </>
   );
